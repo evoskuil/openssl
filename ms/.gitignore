@@ -1,0 +1,7 @@
+/nt.mak
+/libeay32.def
+/ntdll.mak
+/ssleay32.def
+/uptable.asm
+*.obj
+/version32.rc

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+#################################################################
+#   GENERATED SOURCE CODE, DO NOT EDIT EXCEPT EXPERIMENTALLY    #
+#################################################################
+-->
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+    <metadata minClientVersion="2.5">
+        <id>openssl_no-asm_vc120</id>
+        <version>1.0.1.800</version>
+        <title>openssl_no-asm_vc120</title>
+        <authors>The OpenSSL Project, Eric A. Young and Tim J. Hudson</authors>
+        <owners>Eric Voskuil</owners>
+        <licenseUrl>https://raw.github.com/openssl/openssl/master/LICENSE</licenseUrl>
+        <projectUrl>http://www.openssl.org</projectUrl>
+        <iconUrl>http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/EFF_version_of_NSA_logo.jpg/200px-EFF_version_of_NSA_logo.jpg</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <developmentDependency>false</developmentDependency>
+        <description>The OpenSSL Project is a commercial-grade, full-featured, and Open Source toolkit implementing the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well as a full-strength general purpose cryptography library.</description>
+        <summary>This is OpenSSL 1.0.1h, unmodified, in the default build configuration. Supports Visual Studio 2013 (v120) compiler.</summary>
+        <releaseNotes>https://raw.github.com/openssl/openssl/master/NEWS</releaseNotes>
+        <copyright>The OpenSSL Project and Eric Young</copyright>
+        <tags>native, openssl, crypto, ssl, tls, hash, cipher, ecdsa, RSA, C++</tags>
+        <dependencies>
+        </dependencies>
+    </metadata>
+    <files>
+        <!-- targets -->
+      
+        <file src="package.targets" target="build\native\openssl_no-asm_vc120.targets" />
+        <file src="package.xml" target="build\native\package.xml" />
+
+        <!-- include -->
+		
+        <file src="..\..\inc32\openssl\*.*" target="build\native\include\openssl" />
+        
+        <!-- libraries -->
+
+        <!-- x86 Dynamic libraries (.dll) -->
+        <file src="..\..\out32dll\ssleay32.dll" target="build\native\bin\ssleay32-x86-v120-mt-1_0_1_800.dll" />
+        <file src="..\..\out32dll\libeay32.dll" target="build\native\bin\libeay32-x86-v120-mt-1_0_1_800.dll" />
+        <file src="..\..\out32dll.dbg\ssleay32.dll" target="build\native\bin\ssleay32-x86-v120-mt-gd-1_0_1_800.dll" />
+        <file src="..\..\out32dll.dbg\libeay32.dll" target="build\native\bin\libeay32-x86-v120-mt-gd-1_0_1_800.dll" />
+
+        <!-- x86 Debugging symbols (.pdb) -->
+        <file src="..\..\out32dll\ssleay32.pdb" target="build\native\bin\ssleay32-x86-v120-mt-1_0_1_800.pdb" />
+        <file src="..\..\out32dll\libeay32.pdb" target="build\native\bin\libeay32-x86-v120-mt-1_0_1_800.pdb" />
+        <file src="..\..\out32dll.dbg\ssleay32.pdb" target="build\native\bin\ssleay32-x86-v120-mt-gd-1_0_1_800.pdb" />                                                             
+        <file src="..\..\out32dll.dbg\libeay32.pdb" target="build\native\bin\libeay32-x86-v120-mt-gd-1_0_1_800.pdb" />
+
+        <!-- x86 Import libraries (.imp.lib) -->
+        <file src="..\..\out32dll\ssleay32.lib" target="build\native\bin\ssleay32-x86-v120-mt-1_0_1_800.imp.lib" />
+        <file src="..\..\out32dll\libeay32.lib" target="build\native\bin\libeay32-x86-v120-mt-1_0_1_800.imp.lib" />
+        <file src="..\..\out32dll.dbg\ssleay32.lib" target="build\native\bin\ssleay32-x86-v120-mt-gd-1_0_1_800.imp.lib" />
+        <file src="..\..\out32dll.dbg\libeay32.lib" target="build\native\bin\libeay32-x86-v120-mt-gd-1_0_1_800.imp.lib" />
+
+        <!-- x86 Export libraries (.exp) -->
+        <file src="..\..\out32dll\ssleay32.exp" target="build\native\bin\ssleay32-x86-v120-mt-1_0_1_800.exp" />
+        <file src="..\..\out32dll\libeay32.exp" target="build\native\bin\libeay32-x86-v120-mt-1_0_1_800.exp" />
+        <file src="..\..\out32dll.dbg\ssleay32.exp" target="build\native\bin\ssleay32-x86-v120-mt-gd-1_0_1_800.exp" />
+        <file src="..\..\out32dll.dbg\libeay32.exp" target="build\native\bin\libeay32-x86-v120-mt-gd-1_0_1_800.exp" />
+
+        <!-- x86 Static libraries (.lib) -->
+        <file src="..\..\out32\ssleay32.lib" target="build\native\bin\ssleay32-x86-v120-mt-s-1_0_1_800.lib" />
+        <file src="..\..\out32\libeay32.lib" target="build\native\bin\libeay32-x86-v120-mt-s-1_0_1_800.lib" />
+        <file src="..\..\out32.dbg\ssleay32.lib" target="build\native\bin\ssleay32-x86-v120-mt-sgd-1_0_1_800.lib" />
+        <file src="..\..\out32.dbg\libeay32.lib" target="build\native\bin\libeay32-x86-v120-mt-sgd-1_0_1_800.lib" />
+
+        <!-- x64 Dynamic libraries (.dll) -->
+        <file src="..\..\out64dll\ssleay32.dll" target="build\native\bin\ssleay32-x64-v120-mt-1_0_1_800.dll" />
+        <file src="..\..\out64dll\libeay32.dll" target="build\native\bin\libeay32-x64-v120-mt-1_0_1_800.dll" />
+        <file src="..\..\out64dll.dbg\ssleay32.dll" target="build\native\bin\ssleay32-x64-v120-mt-gd-1_0_1_800.dll" />
+        <file src="..\..\out64dll.dbg\libeay32.dll" target="build\native\bin\libeay32-x64-v120-mt-gd-1_0_1_800.dll" />
+
+        <!-- x64 Debugging symbols (.pdb) -->
+        <file src="..\..\out64dll\ssleay32.pdb" target="build\native\bin\ssleay32-x64-v120-mt-1_0_1_800.pdb" />
+        <file src="..\..\out64dll\libeay32.pdb" target="build\native\bin\libeay32-x64-v120-mt-1_0_1_800.pdb" />
+        <file src="..\..\out64dll.dbg\ssleay32.pdb" target="build\native\bin\ssleay32-x64-v120-mt-gd-1_0_1_800.pdb" />                                                             
+        <file src="..\..\out64dll.dbg\libeay32.pdb" target="build\native\bin\libeay32-x64-v120-mt-gd-1_0_1_800.pdb" />
+
+        <!-- x64 Import libraries (.imp.lib) -->
+        <file src="..\..\out64dll\ssleay32.lib" target="build\native\bin\ssleay32-x64-v120-mt-1_0_1_800.imp.lib" />
+        <file src="..\..\out64dll\libeay32.lib" target="build\native\bin\libeay32-x64-v120-mt-1_0_1_800.imp.lib" />
+        <file src="..\..\out64dll.dbg\ssleay32.lib" target="build\native\bin\ssleay32-x64-v120-mt-gd-1_0_1_800.imp.lib" />
+        <file src="..\..\out64dll.dbg\libeay32.lib" target="build\native\bin\libeay32-x64-v120-mt-gd-1_0_1_800.imp.lib" />
+
+        <!-- x64 Export libraries (.exp) -->
+        <file src="..\..\out64dll\ssleay32.exp" target="build\native\bin\ssleay32-x64-v120-mt-1_0_1_800.exp" />
+        <file src="..\..\out64dll\libeay32.exp" target="build\native\bin\libeay32-x64-v120-mt-1_0_1_800.exp" />
+        <file src="..\..\out64dll.dbg\ssleay32.exp" target="build\native\bin\ssleay32-x64-v120-mt-gd-1_0_1_800.exp" />
+        <file src="..\..\out64dll.dbg\libeay32.exp" target="build\native\bin\libeay32-x64-v120-mt-gd-1_0_1_800.exp" />
+
+        <!-- x64 Static libraries (.lib) -->
+        <file src="..\..\out64\ssleay32.lib" target="build\native\bin\ssleay32-x64-v120-mt-s-1_0_1_800.lib" />
+        <file src="..\..\out64\libeay32.lib" target="build\native\bin\libeay32-x64-v120-mt-s-1_0_1_800.lib" />
+        <file src="..\..\out64.dbg\ssleay32.lib" target="build\native\bin\ssleay32-x64-v120-mt-sgd-1_0_1_800.lib" />
+        <file src="..\..\out64.dbg\libeay32.lib" target="build\native\bin\libeay32-x64-v120-mt-sgd-1_0_1_800.lib" />
+                
+        <!-- tools -->
+        
+        <!-- Tools (.exe) -->
+        <file src="..\..\out32\openssl.exe" target="tools" />
+        
+        <!-- docs -->
+        
+        <!-- Documents (.*) -->
+        <!--<file src="..\..\docs\*" target="build\native\docs" />-->
+    </files>
+<!--
+#################################################################
+#   GENERATED SOURCE CODE, DO NOT EDIT EXCEPT EXPERIMENTALLY    #
+#################################################################
+-->
+</package>
